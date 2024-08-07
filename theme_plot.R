@@ -1,5 +1,10 @@
 #### SET THEME FOR THE PLOTS --------------------------------------------------
 
+## load libraries
+library(showtext)
+library(ggplot2)
+
+## add font
 font_add_google("Open Sans", "open_sans")
 showtext_auto()
 
